@@ -1,0 +1,134 @@
+County,"Voted (0=R, 1=D)",Neighbors
+Accomack,0,Northampton
+Albemarle,1,Augusta; Rockingham; Greene; Orange; Louisa; Fluvanna; Buckingham; Nelson; Charlottesville
+Alexandria,1,Fairfax; Arlington
+Alleghany,0,Covington City; Bath; Rockbridge; Botetourt; Craig
+Amelia,0,Cumberland; Prince Edward; Nottoway; Dinwiddie; Chesterfield; Powhatan
+Amherst,0,Rockbridge; Nelson; Appomattox; Campbell; Lynchburg City; Bedford
+Appomattox,0,Amherst; Campbell; Charlotte; Prince Edward; Nelson; Buckingham
+Arlington,1,Fairfax; Alexandria; Falls Church
+Augusta,0,Staunton City; Highland; Bath; Rockbridge; Waynesboro City; Nelson; Albemarle; Rockingham
+Bath,0,Highland; Augusta; Rockbridge; Alleghany
+Bedford,0,Lynchburg City; Amherst; Campbell; Rockbridge; Botetourt; Roanoke; Franklin; Pittsylvania
+Bland,0,Giles; Wythe; Pulaski; Smyth; Tazewell
+Botetourt,0,Roanoke; Craig; Alleghany; Rockbridge; Bedford
+Bristol City,0,Washington
+Brunswick,1,Mecklenburg; Lunenburg; Nottoway; Greensville; Dinwiddie
+Buchanan,0,Dickenson; Russell; Tazewell
+Buckingham,0,Fluvanna; Albemarle; Cumberland; Prince Edward; Appomattox; Nelson
+Buena Vista City,0,Rockbridge
+Campbell,0,Pittsylvania; Charlotte; Halifax; Bedford; Lynchburg City; Amherst; Appomattox
+Caroline,0,Spotsylvania; Stafford; King George; Essex; King and Queen; King William; Hanover
+Carroll,0,Galax City; Grayson; Wythe; Pulaski; Floyd; Patrick
+Charles City,1,Chesterfield; Henrico; New Kent; James City
+Charlotte,0,Lunenburg; Mecklenburg; Halifax; Campbell; Appomattox; Prince Edward
+Charlottesville,1,Albemarle
+Chesapeake City,0,Suffolk City; Norfolk City; Portsmouth City; Virginia Beach City
+Chesterfield,0,Henrico; Richmond City; Charles City; Hopewell City; Colonial Heights City; Petersburg City; Prince George; Powhatan; Amelia; Dinwiddie
+Clarke,0,Loudoun; Fauquier; Warren; Frederick
+Colonial Heights City,0,Prince George; Petersburg City; Chesterfield
+Covington City,0,Alleghany
+Craig,0,Giles; Montgomery; Alleghany; Roanoke; Botetourt
+Culpeper,0,Rappahannock; Fauquier; Stafford; Spotsylvania; Orange; Madison
+Cumberland,0,Buckingham; Fluvanna; Goochland; Powhatan; Amelia; Prince Edward
+Danville City,1,Pittsylvania
+Dickenson,0,Wise; Russell; Buchanan
+Dinwiddie,0,Chesterfield; Amelia; Nottoway; Brunswick; Sussex; Greensville; Prince George
+Emporia,1,Greensville
+Essex,0,Caroline; Middlesex; King and Queen; King George; Richmond; Middlesex
+Fairfax,1,Loudoun; Prince William; Arlington; Fairfax City; Alexandria; Manassas; Falls Church; Manassas Park
+Fairfax City,1,Fairfax
+Falls Church,1,Fairfax; Arlington
+Fauquier,0,Prince William; Loudoun; Clarke; Warren; Rappahannock; Culpeper; Stafford
+Floyd,0,Pulaski; Carroll; Patrick; Franklin; Roanoke; Montgomery
+Fluvanna,0,Albemarle; Louisa; Goochland; Cumberland; Buckingham
+Franklin,0,Roanoke; Bedford; Pittsylvania; Floyd; Patrick; Henry
+Franklin City,1,Suffolk City; Southampton
+Frederick,0,Winchester; Shenandoah; Clarke; Warren
+Fredericksburg,1,Stafford; Spotsylvania
+Galax City,0,Carroll; Grayson
+Giles,0,Craig; Montgomery; Pulaski; Bland
+Gloucester,0,Matthews; Middlesex; York; King and Queen
+Goochland,0,Fluvanna; Cumberland; Powhatan; Chesterfield; Henrico; Hanover; Louisa
+Grayson,0,Washington; Galax City; Carroll; Smyth; Wythe
+Greene,0,Rockingham; Page; Madison; Orange; Louisa; Albemarle
+Greensville,1,Brunswick; Dinwiddie; Sussex; Southampton; Emporia
+Halifax,0,Mecklenburg; Charlotte; Campbell; Pittsylvania
+Hampton City,1,York; Poquoson City; Newport News; Norfolk City
+Hanover,0,Louisa; Goochland; Henrico; New Kent; King William; Caroline; Spotsylvania
+Harrisonburg,1,Rockingham
+Henrico,1,Richmond City; Chesterfield; Charles City; New Kent; Hanover; Goochland
+Henry,0,Martinsville City; Pittsylvania; Franklin; Patrick
+Highland,0,Bath; Augusta
+Hopewell City,1,Chesterfield; Prince George
+Isle of Wight,0,Surry; Suffolk City; Southampton
+James City,0,York; Charles City; Newport News; New Kent; Williamsburg City
+King and Queen,0,Essex; Caroline; King William; Gloucester; Middlesex
+King George,0,Stafford; Caroline; Essex; Westmoreland
+King William,0,New Kent; Hanover; Caroline; King and Queen
+Lancaster,0,Middlesex; Richmond; Northumberland
+Lee,0,Wise; Scott
+Lexington City,1,Rockbridge
+Loudoun,1,Clarke; Fauquier; Fairfax; Prince William
+Louisa,0,Orange; Albemarle; Fluvanna; Goochland; Hanover; Spotsylvania
+Lunenburg,0,Mecklenburg; Charlotte; Prince Edward; Nottoway; Brunswick
+Lynchburg City,0,Bedford; Campbell; Amherst
+Madison,0,Greene; Page; Rappahannock; Culpeper; Orange
+Manassas,1,Prince William; Fairfax; Manassas Park
+Manassas Park,1,Prince William; Fairfax; Manassas
+Martinsville City,1,Henry
+Matthews,0,Middlesex; Gloucester
+Mecklenburg,0,Halifax; Charlotte; Lunenburg; Brunswick
+Middlesex,0,Essex; King and Queen; Matthews; Gloucester; Lancaster
+Montgomery,1,Giles; Pulaski; Floyd; Radford City; Franklin; Roanoke; Craig
+Nelson,0,Augusta; Albemarle; Rockbridge; Amherst; Appomattox; Buckingham
+New Kent,0,King William; Hanover; Henrico; Charles City; James City
+Newport News,1,James City; York; Hampton City
+Norfolk City,1,Virginia Beach City; Chesapeake City; Portsmouth City
+Northampton,1,Accomack; Virginia Beach City
+Northumberland,0,Westmoreland; Richmond; Lancaster
+Norton City,0,Wise; Russell; Buchanan
+Nottoway,0,Prince Edward; Lunenburg; Brunswick; Dinwiddie; Amelia
+Orange,0,Greene; Madison; Culpeper; Spotsylvania; Louisa; Albemarle
+Page,0,Shenandoah; Warren; Rappahannock; Madison; Greene; Rockingham
+Patrick,0,Henry; Franklin; Floyd; Carroll
+Petersburg City,1,Prince George; Dinwiddie; Chesterfield; Colonial Heights City
+Pittsylvania,0,Danville City; Halifax; Campbell; Bedford; Franklin; Henry
+Poquoson City,0,York; Hampton City
+Portsmouth City,1,Chesapeake City; Virginia Beach City
+Powhatan,0,Cumberland; Amelia; Chesterfield; Goochland
+Prince Edward,1,Appomattox; Buckingham; Cumberland; Amelia; Nottoway; Lunenburg; Charlotte
+Prince George,0,Sussex; Surry; Dinwiddie; Charles City; Petersburg City; Colonial Heights City; Hopewell City; Chesterfield
+Prince William,1,Loudoun; Fairfax; Manassas; Fauquier; Stafford; Manassas Park
+Pulaski,0,Radford City; Montgomery; Wythe; Giles; Bland; Carroll; Floyd
+Radford City,1,Montgomery; Pulaski
+Rappahannock,0,Page; Warren; Fauquier; Culpeper; Madison
+Richmond,0,Essex; Northumberland; Westmoreland; Lancaster
+Richmond City,1,Henrico; Chesterfield
+Roanoke,0,Salem City; Roanoke City; Montgomery; Craig; Botetourt; Bedford; Franklin; Floyd
+Roanoke City,1,Salem City; Roanoke
+Rockbridge,0,Lexington City; Buena Vista City; Botetourt; Alleghany; Bath; Augusta; Nelson; Amherst; Bedford
+Rockingham,0,Shenandoah; Page; Greene; Albemarle; Augusta; Harrisonburg
+Russell,0,Washington; Smyth; Tazewell; Buchanan; Dickenson; Wise; Scott
+Salem City,0,Roanoke; Roanoke City
+Scott,0,Lee; Wise; Russell; Washington
+Shenandoah,0,Frederick; Warren; Page; Rockingham
+Smyth,0,Tazewell; Bland; Wythe; Grayson; Washington; Russell
+Southampton,0,Franklin City; Isle of Wight; Suffolk City; Greensville; Sussex; Surry
+Spotsylvania,0,Culpeper; Stafford; Fredericksburg; Caroline; Hanover; Louisa
+Stafford,0,Fauquier; Prince William; Culpeper; Spotsylvania; Fredericksburg; King George; Caroline
+Staunton City,1,Augusta
+Suffolk City,1,Isle of Wight; Chesapeake City; Franklin City; Southampton
+Surry,1,Charles City; Sussex; Southampton; Isle of Wight; Prince George
+Sussex,1,Southampton; Surry; Greensville; Dinwiddie; Prince George
+Tazewell,0,Bland; Smyth; Russell; Buchanan
+Virginia Beach City,0,Norfolk City; Chesapeake City; Northampton
+Warren,0,Clarke; Frederick; Shenandoah; Page; Rappahannock; Fauquier
+Washington,0,Bristol City; Scott; Russell; Smyth; Grayson
+Waynesboro City,0,Augusta
+Westmoreland,0,King George; Essex; Richmond; Northumberland
+Williamsburg City,1,James City; York
+Winchester,1,Frederick
+Wise,0,Lee; Scott; Russell; Dickenson; Norton City
+Wythe,0,Carroll; Grayson; Smyth; Tazewell; Bland; Pulaski
+York,0,Gloucester; James City; Newport News; Hampton City; Poquoson City; Williamsburg City
