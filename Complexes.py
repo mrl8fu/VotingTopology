@@ -74,7 +74,7 @@ def plot_simplex(G: nx.Graph, simplices: list, color: str) -> None:
     plt.gca().set_facecolor('#f8f8f8')
     plt.title("Simplicial Complex with Higher-Dimensional Simplices")
     #plt.savefig("{filename}{value}.png".format(filename=filename, value=vote), dpi=300, transparent=True)
-    #plt.show()
+    plt.show()
 
 
 
@@ -90,12 +90,15 @@ def formatCSV(filename) -> dict:
             point = row["County"]
             binary_value = int(row["Voted (0=R, 1=D)"])
             related_points = row["Neighbors"].split("; ")
+            related_points_int = []
+            for entry in related_points:
+                related_points_int.append(int(entry))
 
-            result_dict[point] = {
+            result_dict[int(point)] = {
                 "value": binary_value,
-                "sees": related_points
+                "sees": related_points_int
             }
-
+    #print(result_dict)
     return result_dict
 
 def calculate_betti_numbers(simplices: list) -> list:
@@ -104,6 +107,8 @@ def calculate_betti_numbers(simplices: list) -> list:
         simplicial_complex.insert(simplex)
 
     # Compute the Betti numbers
+    simplicial_complex.compute_persistence()
+
     betti_numbers = simplicial_complex.betti_numbers()
 
     return betti_numbers
@@ -113,29 +118,36 @@ def calculate_betti_numbers(simplices: list) -> list:
 
 
 def main():
-    states_dict_2020 = formatCSV("Voting Data Virginia Numbered - VA2020.csv")
+    states_dict_2020 = formatCSV("Virginia Voting Data Numbered - VA2020.csv")
     G_2020_0, simplices_2020_0 = createComplex(states_dict_2020, 0, "VA2020_")
     G_2020_1, simplices_2020_1 = createComplex(states_dict_2020, 1, "VA2020_")
     #plot_simplex(G_2020_0, simplices_2020_0, "red")
     #plot_simplex(G_2020_1, simplices_2020_1, "blue")
-    print("Betti Numbers R2020: " + calculate_betti_numbers(simplices_2020_0))
-    print("Betti Numbers D2020: " + calculate_betti_numbers(simplices_2020_1))
+    print("Betti Numbers R2020: ")
+    print(calculate_betti_numbers(simplices_2020_0))
+    print("Betti Numbers D2020: ")
+    print(calculate_betti_numbers(simplices_2020_1))
 
-    states_dict_2016 = formatCSV("Voting Data Virginia Numbered - VA2016.csv")
+    states_dict_2016 = formatCSV("Virginia Voting Data Numbered - VA2016.csv")
     G_2016_0, simplices_2016_0 = createComplex(states_dict_2016, 0, "VA2016_")
     G_2016_1, simplices_2016_1 = createComplex(states_dict_2016, 1, "VA2016_")
     #plot_simplex(G_2016_0, simplices_2016_0, "red")
     #plot_simplex(G_2016_1, simplices_2016_1, "blue")
-    print("Betti Numbers R2016: " + calculate_betti_numbers(simplices_2016_0))
-    print("Betti Numbers D2016: " + calculate_betti_numbers(simplices_2016_1))
+    print("Betti Numbers R2016: ")
+    print(calculate_betti_numbers(simplices_2016_0))
+    print("Betti Numbers D2016: ")
+    print(calculate_betti_numbers(simplices_2016_1))
 
-    states_dict_2012 = formatCSV("Voting Data Virginia Numbered - VA2012.csv")
+    states_dict_2012 = formatCSV("Virginia Voting Data Numbered - VA2012.csv")
     G_2012_0, simplices_2012_0 = createComplex(states_dict_2012, 0, "VA2012_")
     G_2012_1, simplices_2012_1 = createComplex(states_dict_2012, 1, "VA2012_")
     #plot_simplex(G_2012_0, simplices_2012_0, "red")
     #plot_simplex(G_2012_1, simplices_2012_1, "blue")
-    print("Betti Numbers R2012: " + calculate_betti_numbers(simplices_2012_0))
-    print("Betti Numbers D2012: " + calculate_betti_numbers(simplices_2012_1))
+    print("Betti Numbers R2012: ")
+    print(calculate_betti_numbers(simplices_2012_0))
+    print("Betti Numbers D2012: ")
+    print(calculate_betti_numbers(simplices_2012_1))
+    
 
 if __name__ == "__main__":
     main()
