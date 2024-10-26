@@ -4,7 +4,7 @@ from itertools import combinations
 import pandas as pd
 import csv
 
-def createComplex(points: dict, vote: int):
+def createComplex(points: dict, vote: int, filename: str) -> None:
 
     # Define Color
     color = 'red'
@@ -73,6 +73,7 @@ def createComplex(points: dict, vote: int):
 
     plt.gca().set_facecolor('#f8f8f8')
     plt.title("Simplicial Complex with Higher-Dimensional Simplices")
+    plt.savefig("{filename}{value}.png".format(filename=filename, value=vote), dpi=300, transparent=True)
     plt.show()
 
 
@@ -97,9 +98,17 @@ def formatCSV(filename):
 
 
 def main():
-    states_dict = formatCSV("Voting Data 2020 - VA2020.csv")
-    createComplex(states_dict, 0)
-    createComplex(states_dict, 1)
+    states_dict_2020 = formatCSV("Voting Data Virginia - VA2020.csv")
+    createComplex(states_dict_2020, 0, "VA2020_")
+    createComplex(states_dict_2020, 1, "VA2020_")
+
+    states_dict_2016 = formatCSV("Voting Data Virginia - VA2016.csv")
+    createComplex(states_dict_2016, 0, "VA2016_")
+    createComplex(states_dict_2016, 1, "VA2016_")
+
+    states_dict_2012 = formatCSV("Voting Data Virginia - VA2012.csv")
+    createComplex(states_dict_2012, 0, "VA2012_")
+    createComplex(states_dict_2012, 1, "VA2012_")
 
 if __name__ == "__main__":
     main()
